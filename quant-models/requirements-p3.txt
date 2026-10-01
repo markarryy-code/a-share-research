@@ -1,0 +1,5 @@
+# P3使用现有NumPy版本，只增加CPU训练的必要依赖。
+-r requirements-p1.txt
+lightgbm==4.7.0
+scipy==1.18.1
+narwhals==2.26.0

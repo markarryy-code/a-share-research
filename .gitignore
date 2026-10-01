@@ -1,0 +1,8 @@
+# 公开候选采用允许清单：未逐项核查的目录和新文件默认只留本机。
+# 研究、每日记录、账户规则、技能、工具、报告和本机配置均不自动纳入提交。
+/*
+!/.gitattributes
+!/.gitignore
+!/README.md
+!/quant-models/
+!/.githooks/

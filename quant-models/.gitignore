@@ -1,0 +1,24 @@
+# 默认不提交任何文件；仅允许已核查的通用源码、合成测试和依赖声明。
+*
+!*/
+!/.gitattributes
+!/.gitignore
+!/requirements-p1.txt
+!/requirements-p3.txt
+!/src/**/*.py
+!/tests/**/*.py
+!/methods/*/src/**/*.py
+!/methods/*/tests/**/*.py
+!/analysis/technical_indicators.py
+!/analysis/feature_rules.py
+!/analysis/detail_feature_rules.py
+!/analysis/chart_patterns.py
+!/analysis/test_*.py
+
+# 真实实验配置、说明、统计、图表和运行记录没有例外，全部只留本机。
+# 这些目录直接排除，避免扫描大体积缓存，或意外纳入产物中的脚本副本。
+**/runs/
+**/.cache/
+**/.venv/
+**/__pycache__/
+/.scratch/
